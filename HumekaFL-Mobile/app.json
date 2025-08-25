@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "HumekaFL",
+    "slug": "HumekaFL",
+    "description": "This is HumekaFL. An innovative way to detect birth asphyxia from a child's cry.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "We need access to your microphone so you can record audio."
+      },
+      "bundleIdentifier": "y"
+    },
+    "android": {"permission": [
+        "INTERNET",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.beki_retta.HumekaFL"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c2eaedc3-034d-4bce-a91b-a031d89127d7"
+      }
+    }
+  }
+}
